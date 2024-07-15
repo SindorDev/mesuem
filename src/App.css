@@ -1,0 +1,18 @@
+[data-current-theme]{
+     transition: 0.3s;
+   }
+   
+   [data-current-theme="true"]{
+     background-color: #000;
+     color: #fff;
+     height: 100%;
+   }
+   
+   [data-current-theme="true"] *{
+     border: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
