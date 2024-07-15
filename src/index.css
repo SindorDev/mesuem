@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+     font-family: 'Poppins';
+     src: url("./fonts/Poppins.woff2");
+}
+
+.title {
+     font-family: 'Poppins';
+}
+.container {
+     width: 100%;
+     max-width: 1100px;
+     margin: 0 auto;
+     padding: 0 20px;
+}
