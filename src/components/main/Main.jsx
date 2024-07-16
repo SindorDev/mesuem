@@ -1,4 +1,3 @@
-// import { base } from "../../data/db";
 import avatar from "../../images/avatar.png"
 import mona from "../../images/mona.png"
 import girl from "../../images/girl.png"
@@ -10,6 +9,7 @@ const Main = () => {
       <div className="container">
         <div className="grid grid-cols-4 min-h-[490px] border-collapse gap-[15px]">
             <div className="h-[100%] border-b-[2px]">
+              
 
               <h2 className="title text-[30px] tracking-[2px] font-[700] leading-[45px]">Lorem ipsum dolor sit amet, consectetur...</h2>
               <p className="text-[14px] font-[400] tracking-[2px] title leading-[15px] my-[25px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet tempor nunc maecenas cras ipsum, lorem massa lacus...</p>

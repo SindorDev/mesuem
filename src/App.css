@@ -11,6 +11,10 @@
    [data-current-theme="true"] *{
      border: none;
 }
+
+[data-current-theme="true"] .btn{
+  border: 2px solid #EE5626;
+}
 * {
   margin: 0;
   padding: 0;

@@ -4,6 +4,7 @@ import './App.css'
 import { useContext } from 'react';
 import Main from "./routes/home/index"
 import AppContext from './context/store';
+import Single from "./routes/single/Single"
 function App() {
   const [state, dispatch] = useContext(AppContext);
   
@@ -11,6 +12,7 @@ function App() {
     <div data-current-theme={state.theme}>
      <Routes>
         <Route path='/' element={<Main />}/>
+        <Route path='/single' element={<Single/>} />
      </Routes>
     </div>
   )
